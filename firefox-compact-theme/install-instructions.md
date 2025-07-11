@@ -24,15 +24,15 @@ This guide explains how to install the `userChrome.css` created by **Anuprash Su
 
 ### 🪟 Windows
 
-1. Press `Win + R`, paste the following : %APPDATA%\Mozilla\Firefox\Profiles  , and press Enter:
+1. Press `Win + R`, paste the following : `%APPDATA%\Mozilla\Firefox\Profiles`  , and press Enter:
 
 2. Open the folder ending in `.default-release` (e.g., `abc123.default-release`).
 
 3. Create a folder named `chrome` inside it (if it doesn’t exist).
 
-4. Inside the `chrome` folder, create a file named: `serChrome.css`
+4. Inside the `chrome` folder, create a file named: `userChrome.css`
 
-5. Open it with **Notepad** (or any text editor) and paste the CSS from this repository.
+5. Open it with **Notepad** (or any text editor) and paste the CSS from this repository i.e. file : `userChrome.css`.
 
 6. Save and close the file.
 
@@ -44,7 +44,7 @@ This guide explains how to install the `userChrome.css` created by **Anuprash Su
 
 1. Open Finder.
 
-2. Press `Cmd + Shift + G` and go to: ~/Library/Application Support/Firefox/Profiles
+2. Press `Cmd + Shift + G` and go to: `~/Library/Application Support/Firefox/Profiles`
 
 3. Open the profile folder ending in `.default-release`.
 
@@ -55,13 +55,13 @@ This guide explains how to install the `userChrome.css` created by **Anuprash Su
 6. Open it using **TextEdit** or use the terminal:
 
 ```sh
-nano ~/Library/Application\ Support/Firefox/Profiles/yourprofile.default-release/chrome/userChrome.css
+    nano ~/Library/Application\ Support/Firefox/Profiles/yourprofile.default-release/chrome/userChrome.css
 
     Paste the CSS code, save, and exit.
 
     Restart Firefox.
 
-###🐧 Linux
+### 🐧 Linux
 
     Open a terminal or file manager.
 
@@ -81,6 +81,6 @@ nano ~/.mozilla/firefox/yourprofile.default-release/chrome/userChrome.css
 
 Or use a GUI editor like Gedit/Kate/VSCode.
 
-Paste the CSS code into the file and save.
+Paste the CSS code i.e. `userChrome.css` into the file and save.
 
 Restart Firefox.
