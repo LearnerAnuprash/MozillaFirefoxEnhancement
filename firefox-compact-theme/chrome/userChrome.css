@@ -1,0 +1,39 @@
+
+/* Styling by Anuprash Subedi for firefox */
+/* Reduced height for url and the tabBar */
+/* === Compact Tab Bar === */
+
+#TabsToolbar {
+  padding: 0 !important;
+  margin-top:0.3rem;
+  border: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  min-height:1.5rem;
+  max-height:2rem;
+}
+
+/* === Compact Address (URL) Bar === */
+#nav-bar {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height:1.5rem;
+ max-height:2rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* === Compact Individual Tabs === */
+.tabbrowser-tab, .tab-content {
+  padding: 0 6px !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+/* === Removed border/shadow between tabs and container === */
+#TabsToolbar {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
