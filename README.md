@@ -43,11 +43,26 @@ firefox-compact-theme/
 ├── README.md
 └── LICENSE
 
-🧑‍💻 Author
+## 📁 Repository Structure
+
+```plaintext
+firefox-compact-theme/
+├── chrome/
+│   └── userChrome.css            # Main styling file
+├── images/
+│   ├── config.png                # about:config screenshot
+│   ├── pasting.png               # enable legacy screenshot
+│   └── preview.png               # Preview image 
+├── INSTALLATION-INSTRUCTIONS.md  # Full guide for all OS
+├── README.md
+└── LICENSE
+```
+
+## 🧑‍💻 Author
 
 Made with ❤️ by learnerAnuprash
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 Firefox and Mozilla trademarks are the property of Mozilla Foundation.
