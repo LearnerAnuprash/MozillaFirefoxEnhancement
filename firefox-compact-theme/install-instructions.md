@@ -54,8 +54,7 @@ This guide explains how to install the `userChrome.css` created by **Anuprash Su
 
 6. Open it using **TextEdit** or use the terminal:
 
-```sh
-    nano ~/Library/Application\ Support/Firefox/Profiles/yourprofile.default-release/chrome/userChrome.css
+ `nano ~/Library/Application\ Support/Firefox/Profiles/yourprofile.default-release/chrome/userChrome.css`
 
     Paste the CSS code, save, and exit.
 
@@ -77,9 +76,9 @@ Create a file named `userChrome.css` in that folder.
 
 Use any text editor, such as:
 
-nano ~/.mozilla/firefox/yourprofile.default-release/chrome/userChrome.css
+`nano ~/.mozilla/firefox/yourprofile.default-release/chrome/userChrome.css`
 
-Or use a GUI editor like Gedit/Kate/VSCode.
+Or use a GUI editor like `Gedit/Kate/VSCode.`
 
 Paste the CSS code i.e. `userChrome.css` into the file and save.
 
