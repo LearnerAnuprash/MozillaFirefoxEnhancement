@@ -9,11 +9,12 @@ This guide explains how to install the `userChrome.css` created by **Anuprash Su
 1. Open Firefox.
 
 2. In the address bar, go to: `about:config`
-    ![Search About::config]()
+    ![Search 'About::config'](/firefox-compact-theme/images/config.png)
 
-3. Search for: toolkit.legacyUserProfileCustomizations.stylesheets
+3. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets`
 
 4. Double-click it to set the value to `true`.
+    ![Double click on 'false'](/firefox-compact-theme/images/pasting.png)
 
 5. Restart Firefox.
 
@@ -29,7 +30,7 @@ This guide explains how to install the `userChrome.css` created by **Anuprash Su
 
 3. Create a folder named `chrome` inside it (if it doesn’t exist).
 
-4. Inside the `chrome` folder, create a file named: userChrome.css
+4. Inside the `chrome` folder, create a file named: `serChrome.css`
 
 5. Open it with **Notepad** (or any text editor) and paste the CSS from this repository.
 
@@ -66,13 +67,13 @@ nano ~/Library/Application\ Support/Firefox/Profiles/yourprofile.default-release
 
     Go to:
 
-~/.mozilla/firefox
+`~/.mozilla/firefox`
 
 Find your profile folder (e.g., abc123.default-release).
 
-Inside it, create a folder called chrome.
+Inside it, create a folder called `chrome`.
 
-Create a file named userChrome.css in that folder.
+Create a file named `userChrome.css` in that folder.
 
 Use any text editor, such as:
 
