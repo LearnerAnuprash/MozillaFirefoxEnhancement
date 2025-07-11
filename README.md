@@ -42,7 +42,7 @@ firefox-compact-theme/
 ├── INSTALLATION-INSTRUCTIONS.md  # Full guide for all OS
 ├── README.md
 └── LICENSE
-
+```
 
 ## 🧑‍💻 Author
 
