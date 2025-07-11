@@ -43,20 +43,6 @@ firefox-compact-theme/
 ├── README.md
 └── LICENSE
 
-## 📁 Repository Structure
-
-```plaintext
-firefox-compact-theme/
-├── chrome/
-│   └── userChrome.css            # Main styling file
-├── images/
-│   ├── config.png                # about:config screenshot
-│   ├── pasting.png               # enable legacy screenshot
-│   └── preview.png               # Preview image 
-├── INSTALLATION-INSTRUCTIONS.md  # Full guide for all OS
-├── README.md
-└── LICENSE
-```
 
 ## 🧑‍💻 Author
 
